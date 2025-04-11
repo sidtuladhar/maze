@@ -157,6 +157,7 @@ public class FlashlightSystem : MonoBehaviour
         }
 
         // Game over - reload scene or show game over screen
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //causes a bug that resets the position and pose of the player, and resets the scene
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

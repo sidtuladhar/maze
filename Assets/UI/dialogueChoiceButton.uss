@@ -1,0 +1,25 @@
+.button {
+    width: 70%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    -unity-text-align: upper-left;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: flex-end;
+    -unity-font-definition: url("project://database/Assets/UI/Remnant-Regular.ttf?fileID=12800000&guid=12be3d0cd25a3457e9b1f73f5b29de1d&type=3#Remnant-Regular");
+    font-size: 50%;
+    min-width: 0;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    -unity-background-image-tint-color: rgb(219, 219, 219);
+}

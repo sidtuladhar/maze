@@ -24,7 +24,7 @@ public class NPCChatController : MonoBehaviour
     private int reputation = 10; // Default reputation
     private bool isProcessingMessage = false; // Prevents overlapping requests
 
-    private const string OpenAiApiKey = "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"; // Replace with actual key
+    private const string OpenAiApiKey = ""; // Replace with actual key //POPOP
     private const string OpenAiApiUrl = "https://api.openai.com/v1/chat/completions";
 
     void Start()
